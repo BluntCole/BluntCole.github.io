@@ -129,7 +129,7 @@ section img#mountains_front
     margin-bottom: 10px;
     color: #fff;
 }
-.sec::before
+div::before
 {
     content: '';
     position: absolute;
