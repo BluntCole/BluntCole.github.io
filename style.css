@@ -129,4 +129,16 @@ section img#mountains_front
     margin-bottom: 10px;
     color: #fff;
 }
+.about
+{
+    position: relative;
+    padding: 100px;
+    background-color: #1c0522;
+}
+.about h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
 
