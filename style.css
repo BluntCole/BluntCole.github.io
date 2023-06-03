@@ -76,7 +76,7 @@ section::before
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #1c0522, transparent);
+    background: linear-gradient(to top, #8079dd, transparent);
     z-index: 1000;
 }
 section img
@@ -121,7 +121,7 @@ section img#mountains_front
 {
     position: relative;
     padding: 100px;
-    background-color: #1c0522;
+    background-color: #8079dd;
 }
 .sec h2
 {
@@ -129,23 +129,67 @@ section img#mountains_front
     margin-bottom: 10px;
     color: #fff;
 }
-.sec::before
-{
+.about::before {
     content: '';
     position: absolute;
-    bottom: 0;
-    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100vw;
     height: 100px;
-    background: linear-gradient(to top, #7597de, transparent);
+    background: linear-gradient(to bottom, #8079dd, transparent); 
     z-index: 1000;
 }
 .about
 {
     position: relative;
     padding: 100px;
-    background-color: #7597de;
+    background-color: #6657a9;
 }
 .about h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.work::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to bottom, #6657a9, transparent); 
+    z-index: 1000;
+}
+.work
+{
+    position: relative;
+    padding: 100px;
+    background-color: #40245a;
+}
+.work h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to bottom, #40245a, transparent); 
+    z-index: 1000;
+}
+.contact
+{
+    position: relative;
+    padding: 100px;
+    background-color: #2b1055;
+}
+.contact h2
 {
     font-size: 3.5em;
     margin-bottom: 10px;
