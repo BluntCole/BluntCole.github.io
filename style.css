@@ -125,10 +125,11 @@ section img#mountains_front
 }
 .sec h2
 {
-    font-size: 3.5em;
+    font-size: 2em;
     margin-bottom: 10px;
     color: #fff;
 }
+
 .about::before {
     content: '';
     position: absolute;
@@ -148,6 +149,12 @@ section img#mountains_front
 .about h2
 {
     font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.about p
+{
+    font-size: 1.5em;
     margin-bottom: 10px;
     color: #fff;
 }
